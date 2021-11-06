@@ -1,0 +1,56 @@
+/*Variables*/
+:root {
+    --principalColor: #41C7A4;
+    --soft-white: #FEFCFF;
+}
+
+/*Estilos iniciales*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    /* font-family: ; */
+}
+
+/*Truco en css para que una pagina no haga ningun tipo de scroll*/
+body {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+/*Estilos al header*/
+header {
+    width: 100%;
+    height: 150px;
+}
+
+header .header-socialmedia {
+    width: 100%;
+    height: 50px;
+    background-color: var(--principalColor);
+    display: flex;
+    justify-content: end;
+}
+
+header .header-socialmedia  div {
+    width: 300px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+header .header-socialmedia  div a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+}
