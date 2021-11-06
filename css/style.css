@@ -51,7 +51,7 @@ header .header-socialmedia  div {
 }
 header .header-socialmedia  div a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 1.4rem;
 }
 
@@ -88,6 +88,7 @@ nav .nav--profile-link a {
     font-size: 1.4rem;
     color: black;
 }
+
 
 
 
